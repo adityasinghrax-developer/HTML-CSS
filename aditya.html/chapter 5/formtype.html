@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h1>Forms type</h1>
+    <form > 
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" placeholder="Full name" required><br><br>
+
+        <label for="pw">Your Password</label>
+        <input type="password" id="pw" name="password" placeholder="password" required><br><br>
+
+        <label for="email">Your email</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com"><br><br>
+
+        <label for="number">Number</label>
+        <input type="number" min="-5" id="number" name="number"><br><br>
+
+        <label for="date">Your date of birth </label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="color">Your favourite color</label>
+        <input type="color" value="#3de9f5" id="color" name="color"><br><br>
+
+        <label for="file">Add your profile </label>
+        <input type="file"  id="file" name="file" multiple><br><br>
+
+        <label><input type="radio" name="gender" value="Male">Male</label>
+        <label><input type="radio" name="gender" value="Female">Female</label>
+        <label><input type="radio" name="gender" value="Other">Other</label>
+
+        <p>Select hobbies</p>
+        <label><input type="checkbox" name="hobbies" value="Reading">Reading</label>
+        <label><input type="checkbox" name="hobbies" value="Game"> Game</label>
+        <label><input type="checkbox" name="hobbies" value="writing">writing</label>
+        <label><input type="checkbox" name="hobbies" value="Learing">Learing</label>
+        <br>
+        <button type="button"> sing up</button>
+        <br>
+        <button type="reset">click here to reset</button>
+        <br>
+        <button type="button">click me</button>
+    </form>
+    <form >
+        <fieldset>
+            <legend> Personal information</legend>
+            <label for="name">name</label>
+            <input type="text" id="name" required>
+            <br> <br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" placeholder="example@gmail.com">
+
+        </fieldset>
+        <fieldset>
+            <legend> Account Details</legend>
+            <label for="pw">Password</label>
+            <input type="password" id="pw" required><br>
+            <br>
+            <label for="color">Color:</label>
+            <input type="color" id="color">
+            <br> <br>
+
+            <label for="volume">volume</label>
+            <input type="range" name="volume" id="volume" min="0" max="100" value="50">
+            
+        </fieldset><br><br>
+        <button type="button">Sumit</button>
+            <button type="reset">Reset </button>
+    </form>
+    
+</body>
+</html>
