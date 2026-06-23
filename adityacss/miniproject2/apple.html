@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apple nav bar</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #eae8e8;
+    }
+    nav{
+
+        display: flex;
+        background: white;
+        border-bottom: 1px solid #e0e0e0;
+        justify-content: center;
+        align-content: center;
+        padding: 14px 0px;
+        box-shadow: 1px 1px 4px #857d7d;
+    }
+    .nav-content{
+        width: 90%;
+        max-width: 1100px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .img{
+        width: 23px;
+        border: none;
+        filter: drop-shadow(1px 1px 1px #cccaca );
+    }
+    .logo{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .menu{
+        display: flex;
+        gap: 20px;
+    }
+    .menu a{
+        text-decoration: none;
+        color: #333;
+        font-size: 15px;
+        letter-spacing: -.4px;
+        padding: 16px 0px;
+
+    }
+    .menu a:hover{
+        color: #333;
+    }
+    .btn-blue{
+        color: white;
+        background: #0071e3;
+        padding: 8px 20px;
+        font-size: 14px;
+        border-radius: 8px;
+        cursor: pointer;
+        border: none;
+        box-shadow: 1px 1px 2px #64aad0;
+    }
+    .btn-black{
+        background: #1d1d1f;
+         padding: 8px 20px;
+         color: white;
+        font-size: 14px;
+        border-radius: 8px;
+        cursor: pointer;
+        border: none;
+        box-shadow: 1px 1px 2px #414143;
+
+    }
+
+</style>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo"> <img class="img" src="image.png" alt=""></div>
+
+            <div class="menu">
+                <a href="https://" target="_blank">Store</a>
+                <a href="https://" target="_blank">Mac</a>
+                <a href="https://" target="_blank">Ipad</a>
+                <a href="https://" target="_blank">Iphome</a>
+                <a href="https://" target="_blank">Airpods</a>
+
+            </div>
+
+            <div class="btn">
+                <button class="btn-blue">BUY</button>
+                <button class="btn-black">LOGIN</button>
+            </div>
+        </div>
+    </nav>
+    
+</body>
+</html>
